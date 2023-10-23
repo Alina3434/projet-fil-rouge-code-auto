@@ -1,0 +1,52 @@
+.menu{
+    display:flex;
+    padding: 0;
+    background-color: black;    
+    align-items: center;
+    justify-content: center
+}
+
+.menu div{
+    display: block; 
+    padding-top: 15px;
+    min-width: 200px;
+}
+.icone{
+    display: block;  
+    margin: 18px;
+    border: solid 3px #FAB637;
+    padding: 5px;
+    border-radius: 50%;
+}
+.menu p{
+    color: white;
+}
+.menu h1{
+    color: white;
+}
+.logo{
+    color: white;
+    display: block;
+    margin-left: 18px;
+}
+
+
+.menu div div{
+    display: flex;
+    min-width:0;
+    padding-top:0;
+}
+.menu div div div{
+    display: block;
+    min-width:0;
+    margin-right: 18px;
+}
+
+.pied{
+    display:flex;
+    padding: 0;
+    background-color: black;    
+    align-items: center;
+    justify-content: center  
+}
+

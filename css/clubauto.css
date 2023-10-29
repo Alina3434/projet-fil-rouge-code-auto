@@ -1,9 +1,22 @@
+@font-face {
+    font-family: fontTitre;
+    src: url(Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: fontContenu;
+    src: url(Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+ /*ici commence le header*/
+
 .menu{
+    font-family: fontTitre;
     display:flex;
     padding: 0;
     background-color: black;    
     align-items: center;
-    justify-content: center
+    justify-content: center;
+
 }
 
 .menu div{
@@ -18,7 +31,7 @@
     padding: 5px;
     border-radius: 50%;
 }
-.menu p{
+.white{
     color: white;
 }
 .menu h1{
@@ -41,12 +54,468 @@
     min-width:0;
     margin-right: 18px;
 }
-
-.pied{
-    display:flex;
-    padding: 0;
-    background-color: black;    
-    align-items: center;
-    justify-content: center  
+.orange{
+    color: #FAB637;
 }
 
+.titre{
+    margin-bottom: 0;
+}
+.titremilieu{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.titrebas{
+    margin-top: 0;
+}
+
+
+/*ici commence la barre de navigation */
+
+.navigation{
+    display: flex;
+    background-color: #bbc3cf;
+    align-items: center;
+    justify-content:right;
+    opacity:100%;
+    margin: 0;
+    padding: 0;
+    min-width: none;
+    min-height: 50px;
+}
+
+.navigation div{
+    
+    display: block;
+    padding: 18px;
+    opacity: 100%;
+    /* margin:18px; */
+    font-family: fontContent;
+    color:#232628;
+    height: 100%;
+    margin: 0;
+}
+.navigation div a{
+    color:#232628; 
+    text-decoration: none;
+}
+.navigation div a:hover{
+    color:#FFFFFF; 
+    text-decoration: none;
+}
+
+.contact{
+    padding-right: 300px;
+}
+
+.navigation div:hover{
+    background-color:#FAB637 ;
+    color: white;
+}
+
+
+.titrenavigation{
+    display:flex;
+    background-color: black;
+    border: solid white;
+    margin:0;
+    padding:0;
+    
+}
+
+/*ici commence les articles*/
+
+.titrearticle{
+    font-family: fontTitre;
+    color: black;
+}
+
+.particle{
+    font-family: fontContenu;
+}
+h2{
+    font-family: fontTitre;
+    
+}
+
+h3{
+    font-family: fontTitre;
+}
+
+.articleimage{
+    display: flex;
+    height: 450px;
+    max-width: 400px;
+}
+
+.alignementimage-1{
+    float:left
+}
+
+.textearticle{
+    display: block;
+    height: 300px;
+    width: 700px;
+}
+
+.articletotal{
+    display: flex;
+}
+
+.articlepuce{
+    list-style-type: none;
+}
+
+
+
+/*pour la barre de navigation*/
+
+.card{
+   
+    min-width: 500px;
+}
+.card-body{
+    /* min-height: 800px; */
+    display: flex;
+}
+
+.card-body img{
+    width: 100%;
+    height: auto;
+}
+
+.card-title{
+    display: flex;
+    min-height: 75px;
+    background-color:#232628 ;
+}
+
+.card-title h2{
+    padding-left: 80px;
+}
+
+
+/*ici commence la barre image*/
+
+.imagefond{
+    background-image: url(/images/vente-location.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    justify-items: center;
+    display: inline-flex;
+}
+
+.carreorange{
+    display: flex;
+    border: none;
+    background-color: #FAB637;
+    width: 450px;
+    height: 150px;
+    padding: 18px;
+    opacity: 80%;
+}
+
+.carrerouge{
+    display: flex;
+    border: none;
+    background-color:#FF4848;
+    width: 450px;
+    height: 150px;
+    padding: 18px;
+    opacity: 75%;
+}
+
+
+/*vehicules lents */
+
+.vehicule{
+    background-color: #232628;
+    display: block;
+    height: 400px;
+    
+}
+
+
+.cardvehicule{
+    margin: 15px;
+    display: block;
+    max-width: 250px;
+}
+.card-bodyvehicule{
+    display: flex;
+}
+
+.card-bodyvehicule img{
+    width: 100%;
+    height: auto;
+}
+
+.card-titlevehicule{
+    display: flex;
+    min-height: 50px;
+    background-color:#232628;
+    margin-top: 10px;
+    text-align: center;
+   
+    
+}
+
+.card-titlevehicule h6{
+    padding-left: 20px; 
+    display: block;
+    color: white;
+    margin:0;
+   
+}
+.boutonprix{
+    display: block;
+    background-color:#6C98E1 ;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    color: white;
+    width: 75px;
+    height: 10px;
+    margin-top: 15px;
+    margin-left: 60px;
+    margin-bottom: 15px;
+}
+.description{
+    padding-top:20px ;
+   
+}
+.titrevehicule{
+    color: white;
+    font-family: fontTitre;
+    display: flex;
+    justify-content: center;
+}
+
+/*ici commence le pourquoi choisie*/
+
+.choisirtitre{
+    display: flex;
+    justify-content: center;
+    font-family: fontTitre;
+}
+
+.choisirbis{
+    display: flex;
+    justify-content: center;
+}
+
+.iconechoisir{
+    color:#CC6119 ;
+    padding-top: 20px;
+    margin: 20px;
+}
+
+
+/*bouton contact*/
+
+.boutoncontact{
+    display: inline;
+    background-color:#6C98E1 ;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    color: white;
+    width: 150px;
+    height: 10px;
+    margin-top: 15px;
+    margin-left: 60px;
+    margin-bottom: 15px;
+}
+
+/*derniere partie avant footer*/
+
+.imagefond2{
+    padding-top: 100px;
+    background-image: url(/images/vehicule3.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 0;
+    flex-grow: 1;
+}
+
+.carreorange2{
+    margin-left: 25%;
+    display: block;
+    background-color:#FAB637 ;
+    width: 350px;
+    height: 150px;
+    padding: 18px;
+    opacity: 80%;
+    padding: 25px;
+ 
+
+}
+
+.titreventelocation{
+    padding:0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.particle-ventelocation{
+    display: block;
+    font-family: fontContenu;
+    font-size: 10px;
+    max-width: 200px;
+}
+
+
+
+/*classe display*/
+
+.d-flex{
+    display: flex;
+}
+
+.d-inlineblack{
+    display: inline-block;
+}
+
+.d-block{
+    display: block;
+}
+
+.d-inlineblock h6{
+    font-family: fontTitre;
+}
+
+.d-inlineblock p{
+    font-family: fontContenu;
+    white-space: normal;
+    max-width: 200px;
+    font-size: x-small;
+
+}
+
+
+/*ici commence le footer*/
+
+
+
+.footer{
+    padding: 0;
+    background-color: black;    
+    color: #ECEFF3;
+    min-height: 200px;
+    margin-top: 0;
+}
+.footerd-block{
+    display: block; 
+    padding-top: 15px;
+    min-width: 300px; 
+    margin-right: 35px;
+}
+.footerd-flex{
+    display: flex;
+    min-width:300px;
+    padding-top:0;
+}
+.d-flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+.reseau{
+    display: block;  
+    margin: 5px;
+    border: solid 3px black ;
+    padding: 10px;
+    color: #ECEFF3;
+    background-color: rgb(45, 44, 44);
+}
+.titrereseau{
+    margin-top: 0;
+    margin-bottom: 18;
+}
+.footertitre{
+    font-family:fontTitre ;
+}
+.footerparagraphe{
+    font-family:fontContenu ;
+    white-space: normal;
+    max-width: 300px;
+}
+.footerparaphe2{
+    font-family: fontContenu;
+    color: black;
+    justify-content: center;
+    padding-left: 20;
+}
+
+.fleche{
+    border: black;
+    background-color: #e69f1b;
+    color: #FFFFFF ;
+    padding: 5px;
+}
+
+/*retour a la ligne */
+.backline{
+    white-space: normal;
+}
+
+.horaire{
+    margin-bottom: 10px;
+}
+.newsletter{
+    margin-top: 10px;
+}
+
+
+/*couleur*/
+
+.white{
+    color: #FFFFFF;
+}
+
+.grey{
+    color:#ECEFF3 ;
+}
+
+.black{
+    color: black;
+}
+
+
+
+/*PAGE DETAIL VENTE*/
+
+ /* Style the list */
+ ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color:none;
+  }
+  
+  /* Display list items side by side */
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 14px;
+  }
+  
+  /* Add a slash symbol (/) before/behind each list item */
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+  
+  /* Add a color to all links inside the list */
+  ul.breadcrumb li a {
+    color: #ECEFF3;
+    text-decoration: none;
+  }
+  
+  /* Add a color on mouse-over */
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  } 

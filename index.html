@@ -1,44 +1,173 @@
 <!DOCTYPE html>
 <html lang="FR">
-    <head>
-        <meta charset="utf_8">
-        <title> Club auto </title>
-    </head>
-    <body>
-        <header>
-            <h1>CLUB AUTO</h1>
-        <ul>
-        <li>
-            <h5> ADRESSE</h5>
-            <P>AVENUE CHARLES DE GAULLE 75000 PARIS</P>
-            <img src="images/icone-adresse.png" alt="logo adresse">
-        </li>
-        <li>
-            <h5>TELEPHONE</h5>
-            <P><strong>01 23 45 67 89 </strong></P>
-            <img src="images/icon-telephone.png" alt="logo telephone">
-        </li>
-        <li>
-            <h5> HORAIRE D OUVERTURE</h5>
-            <p><strong>Du Lundi au Samedi </strong></p>
-            <p> <strong>De 9h à 17h </strong></p>
-        </li>
-        </ul>
-        </header>
-        <nav>
-            <ul>
-                <li><a href="index.html">ACCUEIL</a></li>
-                <li><a href="vente.html">VENTE</a></li>
-                <li><a href="location.html">LOCATION</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
-            </ul>
-        </nav>
-        <section>
-            <img src="images/vehicule1.jpg" alt="vehicule">
-            
-        </section>
-    </body>
-    <footer>
 
+<head>
+    <meta charset="utf_8">
+    <title> Club auto </title>
+    <script src="https://kit.fontawesome.com/114a5d4d65.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="clubauto.css" />
+</head>
+
+<body>
+    <header id="#mainHeader">
+        <h1>CLUB AUTO</h1>
+    
+        <ul class="menu"> <!-- ici ce trouve le bandeau -->
+         <li>
+                <i class="fa-solid fa-location-dot" style="color:#FAB637"></i>
+                <h5> ADRESSE</h5>
+                <p>AVENUE CHARLES DE GAULLE 75000 PARIS</p>
+                
+            </li>
+            <li>
+                <h5>TELEPHONE</h5>
+                <P><strong>01 23 45 67 89 </strong></P>
+                <i class="fa-solid fa-phone"></i>
+            </li>
+            <li>
+                <h5> HORAIRE D OUVERTURE</h5>
+                <p><strong>Du Lundi au Samedi </strong></p>
+                <p> <strong>De 9h à 17h </strong></p>
+            </li>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+
+        </ul> -->
+        
+    </header> <!--ici se termine le mainheader-->
+    <nav id="#maiNnav"> <!--ici se trouve le volet de navigation-->
+        <ul>
+            <li><a href="index.html">ACCUEIL</a></li>
+            <li><a href="vente.html">VENTE</a></li>
+            <li><a href="location.html">LOCATION</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div> <!--premiere image-->
+            <img src="images/vehicule1.jpg" alt="vehicule">
+            <h1> CLUB AUTO LE MEILLEUR DE L'AUTOMOBILE</h1>
+        </div>
+        <section>
+            <article> <!--ici se trouve les articles-->
+                <img src="images/clients.jpg" alt="attirer les clients">
+                <h2> BIENVENUE CHEZ CLUB AUTO</h2>
+                <p><strong>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+                        velit..."
+                        "There is no one who loves pain itself, who seeks after it and wants to have it, simply because
+                        it is pain..."</strong></p>
+                <p> bienvenue chez le meilleurs de l'auto</p>
+            </article>
+            <article>
+                <img src="images/entretien.jpg" alt="entretien">
+                <h2>LE MEILLEUR DE L'AUTOMOBILE</h2>
+                <p>l'automobile le transport le plus sur</p>
+                <ul>
+                    <li>Avantage 1</li>
+                    <li>Avantage 2</li>
+                    <li>Avantage 3</li>
+                    <li>Avantage 4</li>
+                    <li>Avantage 5</li>
+                </ul>
+            </article>
+        </section>
+        <section>
+            <!--vendre ou acheter telle est la question ? -->
+            <div> <!--mettre dans un carré jaune-->
+                <h3><strong> Vous souhaitez louer ? </strong></h3>
+                <p> todo veut louer une voiture pout aller se balader</p>
+            </div>
+            <div> <!--mettre dans un carré rouge-->
+                <h3><strong> Vous souhaitez acheter ? </strong></h3>
+                <p> Todo veut acheter une voiture pour sa petite famille</p>
+            </div>
+        </section>
+        <div>
+            <h1> VEHICULES RECENTS</h1>
+        </div>
+        <div>
+            <img src="images/vehicule2.jpg" alt="annonces">
+            <p><strong>BMW 535I, NAVI, LEATHER, ABS</strong></p>
+            <button>5 000€</button>
+        </div>
+        <div>
+            <img src="images/vehicule2.jpg" alt="annonces">
+            <p><strong> BMW 328I, SPORT LINE BODY KIT</strong></p>
+            <button> 8 000€ </button>
+        </div>
+        <div>
+            <img src="images/vehicule2.jpg" alt="annonces">
+            <p><strong>FORD EXPLORER 2015 4WD</strong></p>
+            <button>
+                <p>9 000€</p>
+                <p>8 200€</p>
+            </button>
+        </div>
+        <div>
+            <h3>Pourquoi nous choisir ? </h3>
+            <div>
+                <h6>
+                    <srong>FINANCEMENT</srong>
+                </h6>
+                <i class="fa-solid fa-tag"></i>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis elit est, feugiat at egestas id,
+                    bibendum et arcu. Quisque vitae elit molestie, efficitur enim eu, lobortis odio.</p>
+            </div>
+            <div>
+                <h6><strong>REACTIVITE DE L'EQUIPE TECHNIQUE</strong></h6>
+                <i class="fa-brands fa-algolia"></i>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis elit est, feugiat at egestas id,
+                    bibendum et arcu. Quisque vitae elit molestie, efficitur enim eu, lobortis odio.</p>
+            </div>
+            <div>
+                <h6><strong> A L'ECOUTE DE NOTRE CLIENTELE</strong></h6>
+                <i class="fa-regular fa-comments"></i>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis elit est, feugiat at egestas id,
+                    bibendum et arcu. Quisque vitae elit molestie, efficitur enim eu, lobortis odio.</p>
+            </div>
+            <div>
+                <h6><strong> SERVICE ET MAINTENANCE</strong></h6>
+                <i class="fa-regular fa-note-sticky"></i>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pharetra laoreet odio sed
+                    hendrerit. Maecenas sollicitudin bibendum mi sed vestibulum. Praesent sem ex, imperdiet vitae diam
+                    id, consectetur consequat arcu. Praesent porta vitae lectus in malesuada. Curabitur pellentesque
+                    pretium neque non efficitur. Donec convallis urna id ullamcorper aliquet. Vivamus scelerisque, enim
+                    vel tincidunt tempus, erat tellus vehicula nulla, non consequat augue ante id magna. </p>
+            </div>
+        </div>
+        <button> Contactez-Nous </button>
+        </div>
+        <div>
+            <img src="/images/vehicule3.jpg" alt="voiture fond">
+            <H6> CLUD AUTO <BR> VENTES ET LOCATIONS</H6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pharetra laoreet odio sed
+                hendrerit. Maecenas sollicitudin bibendum mi sed vestibulum. Praesent sem ex, imperdiet vitae diam id,
+                consectetur consequat arcu. Praesent porta vitae lectus in malesuada. Curabitur pellentesque pretium
+                neque non efficitur. Donec convallis urna id ullamcorper aliquet. Vivamus scelerisque, enim vel
+                tincidunt tempus, erat tellus vehicula nulla, non consequat augue ante id magna. </p>
+        </div>
+    </main>
+    <footer id="#mainFooter">
+        <div> <!--paragraphe de gauche-->
+            <h6><strong>CLUB AUTO</strong></h6>
+            <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pharetra laoreet odio sed
+                hendrerit. Maecenas sollicitudin bibendum mi sed vestibulum. Praesent sem ex, imperdiet vitae diam id,
+                consectetur consequat arcu. Praesent porta vitae lectus in malesuada. Curabitur pellentesque pretium
+                neque non efficitur. Donec convallis urna id ullamcorper aliquet. Vivamus scelerisque, enim vel
+                tincidunt tempus, erat tellus vehicula nulla, non consequat augue ante id magna. </P>
+        </div>
+        <div> <!--horaires d'ouverture-->
+            <h6><strong>>HORAIRE D'OUVERTURE</strong></h6>
+            <p></p>
+        </div>
+        <div>
+            <!--Newsletter mettre une barre de recherche permettant d'insérer l'adresse mail de l'utilisateur afin qu'il recoive les mails-->
+        </div>
+        <div> <!-- réseau sociaux : facebook instagram twitter, youtube, google-->
+        </div>
+        <P>Copyright &copy; Club auto- Tous droits réservés.</P>
     </footer>
+
+</body>
+
 </html>

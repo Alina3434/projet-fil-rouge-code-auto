@@ -519,3 +519,109 @@ h3{
     color: #01447e;
     text-decoration: underline;
   } 
+
+  /*definition de la barre de navigation*/
+
+  .navigationdetail{
+    background-color: #232628;
+    margin-left: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 500px;
+  }
+
+  /*couleur texte barre*/
+
+  .textenavigation{
+    color:white;
+    margin:10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 5px;
+  }
+
+/*survol barre de navigation*/
+
+/*mets le texte en noir lors du survol*/
+
+  .navigationdetail div h5:hover{
+    color:#232628; 
+    text-decoration: none;
+}
+
+/*carre de survol blanc avec bordure top orange*/
+.navigationdetail div:hover{
+    background-color:white ;
+    color:#232628;
+    border-top:#FAB637 solid;
+}
+
+/*texte descriif de la barre de navigation*/
+
+.textedescriptif{
+    margin-left: 400px;
+    margin-top: 18px;
+    color:#232628 ;
+    justify-content: center;
+    font-family: fontContenu;
+    font-size: x-small;
+    width: 500px;
+}
+
+/*effectue un retrait sur le troisème paragraphe*/
+.p3{
+padding-left: 18px;
+}
+
+/*bordure orange sans retrait sur le paragraphe*/
+.bordurep3{
+    border-left: solid #FAB637;
+}
+
+
+
+/*ICI COMMENCE LA PAGE CONTACT*/
+
+.imagefond3{
+    background-image: url(/images/vehicule1.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    justify-items: center;
+    display: inline-flex;
+}
+
+.asterix{
+    color: #FF4848;
+    font-size: xx-small;
+    margin-top: 10px;
+    display: inline;
+}
+
+.formulaire{
+    margin: 10px;
+    display: block;
+}
+
+.boutonenvoyez{
+    background-color: #6C98E1;
+    color: white;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.label{
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+.placeholder{
+    padding-left: 18px;
+}

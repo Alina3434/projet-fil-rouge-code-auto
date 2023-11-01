@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title> Club auto </title>
     <script src="https://kit.fontawesome.com/114a5d4d65.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="clubauto.css" />
+    <link rel="stylesheet" href="/css/clubauto.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -55,7 +55,7 @@
 
         <i class="fa-brands fa-x-twitter logo"></i>
     </div>
-    <div>
+    <div style="min-height: 500px;">
 
         <!--ici se termine le header-->
 
@@ -71,69 +71,48 @@
             <div>
                 <a href="#"><strong>LOCATION</strong></a> <!--flex survol orange lorsque l'on clique dessus-->
             </div>
-            <div style="margin-right: 250px;;">
+            <div style="margin-right: 250px;">
                 <a href="#"><strong>CONTACT</strong></a> <!--flex survol orange lorsque l'on clique dessus-->
             </div>
         </nav>
     </div>
-    <div class="d-flex">
-        <ul class="breadcrumb">
-            <li><a href="#"><strong>ACCUEIL</strong></a></li>
-            <li><a href="#"><strong>VENTE</strong></a></li>
-            <li><a href="#"><strong>LOCATION</strong></a></li>
-            <li><a href="#"><strong>CONTACT</strong></a></li>
-            <li style="color: #ECEFF3;"><strong>BMW 535i, NAVI, leather, ABS</strong></li>
-        </ul> 
-    </div>
-    <div class="d-block" style="justify-content: center;margin-left: 400px;">
-        <div class="titrearticle d-flex">
-            <h2>BMW 535i, NAVI, Leather, ABS</h2>
+    <div> <!--englobe tout carre blanc-->
+        <div> <!--div de titre-->
+            <h3 class="titrearticle">CONTACTEZ-NOUS</h3>
         </div>
-        <div class="d-flex">
-            <img src="/images/vehicule2.jpg" alt="renseignement" style="width: 500px;">
+        <div class="d-flex"> <!--div input + label-->
+            <div class="d-block"> <!--div gauche prenom nom email numero de tel-->
+                <div class="d-flex">
+                    <div> <!--prénom-->
+                        <label>Prénom<i class="fa fa-asterisk asterix label"></i></label>
+                        <input type="text" placeholder="Entrez votre prénom" class="formulaire placeholder" required> 
+                    </div>
+                    <div> <!--nom-->
+                        <label> Nom<i class="fa fa-asterisk asterix"></i></label>
+                        <input type="text" placeholder="Entrez votre nom" class="formulaire placeholder" required>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div> <!--email-->
+                        <label> email<i class="fa fa-asterisk asterix"></i></label>
+                        <input type="email" placeholder="Entrez une adresse mail valide" required class="formulaire placeholder">
+                    </div>
+                    <div> <!--telephone-->
+                        <label>Téléphone</label>
+                        <input type="text" placeholder="Phone number" class="formulaire placeholder">
+                    </div>
+                </div>
+               
+            </div>
+            <div class="d-block"> <!--div droit message avec bouton submit-->
+                <div> <!--message-->
+                    <label>Message</label>
+                    <textarea placeholder="Entrez votre message" class="formulaire placeholder"></textarea>
+                </div>
+                <button class="titrearticle boutonenvoyez"><strong>ENVOYEZ</strong></button>
+
+            </div>
         </div>
-    </div>
-    <nav class="d-flex navigationdetail">
-        <div class="d-block textenavigation">
-            <h5>DESCRIPTION</h5>
-        </div>
-        <div class="d-block textenavigation ">
-            <h5>TECHNIQUE</h5>
-        </div>
-        <div class="d-bloack textenavigation ">
-            <h5>OPTION</h5>
-        </div>
-        <div class="d-bloock textenavigation ">
-            <h5>CONTACT</h5>
-        </div>
-    </nav>
-    <div class="d-block textedescriptif scroll">
-        <div >
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates exercitationem quibusdam reiciendis quaerat neque, commodi, quae, unde nihil eaque veritatis sequi labore a ducimus blanditiis qui minima impedit quas ad?</p>
-        </div>
-        <div >
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita nam saepe laudantium ut repellat, totam voluptatum qui, quod inventore libero nemo nostrum deleniti asperiores magnam tempora dolorem, dolorum repellendus nesciunt!
-            Doloremque eaque incidunt minima, sint nostrum, corrupti iusto, quos voluptates assumenda architecto eum dicta optio veniam! Explicabo incidunt suscipit facere, architecto eaque possimus asperiores expedita ex aliquid quasi blanditiis quis.</p>
-        </div>
-        <div class="p3 bordurep3" >
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere adipisci animi incidunt, repellat magni quod veritatis culpa provident quam placeat pariatur dolorem amet repudiandae atque officiis architecto harum possimus nihil!</p>
-        </div>
-        <div >
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem, cupiditate nostrum! Reiciendis pariatur officia earum amet, eveniet dolores tempora hic quod explicabo, ullam a repudiandae, sapiente dolorum dolorem? Quod, quae.
-                Praesentium ratione soluta quasi doloribus at mollitia totam? Soluta in sunt sapiente fuga et harum? Porro, saepe, reiciendis aperiam eaque voluptatibus officiis nisi est iure earum nemo consectetur iste quam?</p>
-        </div>
-        <div>
-            <h6><strong>OPTION</strong></h6>
-        </div>
-        <div class="d-block">
-            <ul>
-                <il>Option 1</il>
-                <il>Option 2</il>
-                <il>Option 3</il>
-                <il>Option 4</il>
-            </ul>
-        </div>
-      
     </div>
 
 </body>

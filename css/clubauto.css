@@ -423,6 +423,11 @@ h3{
     justify-content: center;
     margin-top: 15px;
 }
+
+.d-flex-center-simple{
+    display: flex;
+    justify-content: center;
+}
 .reseau{
     display: block;  
     margin: 5px;
@@ -600,8 +605,11 @@ padding-left: 18px;
 }
 
 .formulaire{
-    margin: 10px;
+    margin: 5px;
     display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+    min-width: 150px;
 }
 
 .boutonenvoyez{
@@ -622,6 +630,82 @@ padding-left: 18px;
     margin: 0;
 }
 
-.placeholder{
-    padding-left: 18px;
+
+
+
+
+
+/*contour du formulaire*/
+
+.contour{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    display: block;
+    min-width: 500px;
+    max-height: 250px;
+    margin-top: 50px;
 }
+
+.bodycontact{
+    display: flex;
+    background-image: url(/images/vehicule3.jpg);
+    align-content: center;
+    justify-content: center;
+    min-height: 500px;
+}
+
+.formulairebis{
+    margin-bottom: 20px;
+}
+
+.titrecontact{
+    font-family: fontTitre;
+    color: black;
+    margin: 20px;
+
+}
+
+
+/*pour le champ message*/
+
+
+.message{
+    display: block;
+    padding-bottom: 0;
+    min-height: 65px;
+    min-width: 300px;
+    resize: none;
+}
+
+.champformulaire{
+    border: none;
+    background-color:#ECEFF3 ;
+    padding-left: 18px;
+    height: 20px;
+    min-width: 150px;
+
+}
+
+.ecritureformulaire{
+    font-size: xx-small;
+    font-family: titreContenu;
+}
+
+
+/*Page vente*/
+
+.bandeauvente{
+    background-image: url(/images/vente-location.jpg);
+    height: 100px;
+    
+}
+
+.bandeauvente h1{
+    margin-left: 75px;
+    margin-top: 0px;
+    padding-top: 20px;
+    color: white;
+    font-family: fontTitre;
+
+}
+

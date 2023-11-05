@@ -1,173 +1,364 @@
 <!DOCTYPE html>
-<html lang="FR">
+<html lang="en">
 
 <head>
-    <meta charset="utf_8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title> Club auto </title>
     <script src="https://kit.fontawesome.com/114a5d4d65.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="clubauto.css" />
+    <link rel="stylesheet" href="css/clubauto.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cantarell&family=Montserrat:wght@100&family=Raleway:wght@100&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cantarell&family=Montserrat:wght@100&family=Open+Sans:wght@300&family=Raleway:wght@100&display=swap"
+        rel="stylesheet">
+
+
 </head>
 
 <body>
-    <header id="#mainHeader">
-        <h1>CLUB AUTO</h1>
-    
-        <ul class="menu"> <!-- ici ce trouve le bandeau -->
-         <li>
-                <i class="fa-solid fa-location-dot" style="color:#FAB637"></i>
-                <h5> ADRESSE</h5>
-                <p>AVENUE CHARLES DE GAULLE 75000 PARIS</p>
-                
-            </li>
-            <li>
-                <h5>TELEPHONE</h5>
-                <P><strong>01 23 45 67 89 </strong></P>
-                <i class="fa-solid fa-phone"></i>
-            </li>
-            <li>
-                <h5> HORAIRE D OUVERTURE</h5>
-                <p><strong>Du Lundi au Samedi </strong></p>
-                <p> <strong>De 9h à 17h </strong></p>
-            </li>
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-x-twitter"></i>
-
-        </ul> 
-        
-    </header> <!--ici se termine le mainheader-->
-    <nav id="#maiNnav"> <!--ici se trouve le volet de navigation-->
-        <ul>
-            <li><a href="index.html">ACCUEIL</a></li>
-            <li><a href="vente.html">VENTE</a></li>
-            <li><a href="location.html">LOCATION</a></li>
-            <li><a href="contact.html">CONTACT</a></li>
-        </ul>
-    </nav>
-    <main>
-        <div> <!--premiere image-->
-            <img src="images/vehicule1.jpg" alt="vehicule">
-            <h1> CLUB AUTO LE MEILLEUR DE L'AUTOMOBILE</h1>
+    <div class="menu">
+        <div>
+            <h1>CLUB AUTO</h1>
         </div>
-        <section>
-            <article> <!--ici se trouve les articles-->
-                <img src="images/clients.jpg" alt="attirer les clients">
-                <h2> BIENVENUE CHEZ CLUB AUTO</h2>
-                <p><strong>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
-                        velit..."
-                        "There is no one who loves pain itself, who seeks after it and wants to have it, simply because
-                        it is pain..."</strong></p>
-                <p> bienvenue chez le meilleurs de l'auto</p>
-            </article>
-            <article>
-                <img src="images/entretien.jpg" alt="entretien">
-                <h2>LE MEILLEUR DE L'AUTOMOBILE</h2>
-                <p>l'automobile le transport le plus sur</p>
-                <ul>
-                    <li>Avantage 1</li>
-                    <li>Avantage 2</li>
-                    <li>Avantage 3</li>
-                    <li>Avantage 4</li>
-                    <li>Avantage 5</li>
+
+        <i class="fa-solid fa-location-dot icone" style="color:#FAB637"></i>
+        <div>
+            <p class="orange titre"><strong>ADRESSE</strong> </p>
+            <p class="white titremilieu">AVENUE CHARLES DE GAULLE</p>
+            <p class="white titrebas">75000 PARIS</p>
+        </div>
+        <i class="fa-solid fa-phone icone" style="color:#FAB637"></i>
+
+        <div>
+            <p class="orange titre"><strong>TELEPHONE</strong></p>
+            <P class="white titrebas"><strong>01 23 45 67 89 </strong></P>
+        </div>
+
+        <div>
+            <div class="d-flex">
+                <div class="d-block orange">
+                    <p class="titre"><strong>OUVERTUE</strong></p>
+                    <p class="titrebas"><strong>HORAIRE</strong></p>
+                </div>
+                <div class="d-block white">
+                    <p class="titre"><strong>Du Lundi au Samedi </strong></p>
+                    <p class="titrebas"> <strong>De 9h à 17h </strong></p>
+                </div>
+            </div>
+        </div>
+        <i class="fa-brands fa-facebook logo"></i>
+
+        <i class="fa-brands fa-x-twitter logo"></i>
+    </div>
+    <div style="min-height: 500px;">
+
+        <!--ici se termine le header-->
+
+        <!--ici commence la barre de navigation-->
+
+        <nav class="navigation"> <!-- barre de navigation blanc opaque block-->
+            <div>
+                <a href="index.html"><strong>ACCUEIL</strong></a> <!--flex survol orange lorsque l'on clique dessus-->
+            </div>
+            <div>
+                <a href="vente.html"><strong>VENTE</strong></a> <!--flex survol orange lorsque l'on clique dessus-->
+            </div>
+            <div>
+                <a href="location.html"><strong>LOCATION</strong></a> <!--flex survol orange lorsque l'on clique dessus-->
+            </div>
+            <div style="margin-right: 250px;;">
+                <a href="contact.html"><strong>CONTACT</strong></a> <!--flex survol orange lorsque l'on clique dessus-->
+            </div>
+        </nav>
+        <div class="card"> <!--image de fond barre de navigation block-->
+            <div class="card-body"> <!--flex-->
+                <img src="images/vehicule1.jpg" alt="image fond barre de navigation">
+            </div>
+            <div class="card-title">
+                <h2><strong><span style="color: white;">CLUB AUTO</span> <span style="color: #FAB637;">LE MEILLEUR DE
+                            L'AUTOMOBILE</span></strong></h2>
+            </div> <!--flex-->
+        </div>
+
+        <!--ici se termine la barre de navigation-->
+
+        <!--ici commence les articles-->
+        <div class="d-flex" style="justify-content: center; padding-left: 150px;padding-right: 150px;padding-top: 50px;"> <!--premier article-->
+            <div class=" d-block" style="min-width: 500px;"> <!--image premier article a gauche du texte-->
+                <img src="images/clients.jpg" alt="image premier article" style="width: 100%;">
+            </div>
+            <div class=" d-block" style="margin-left: 18px;">
+                <div>
+                    <h3><strong>BIENVENUE CHEZ <span class="orange">CLUB AUTO</span></strong></h3>
+                </div> <!--titre de l'article-->
+                <div>
+                    <p class="particle black"><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+                            distinctio vel quaerat quis eaque quas, nisi eius ex architecto maiores est consectetur hic
+                            provident velit dolore ab laborum qui sapiente.</strong></p>
+                    <p class="particle black">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam aut
+                        tempore corrupti eveniet aperiam sint facilis magni nihil eligendi necessitatibus obcaecati
+                        delectus, hic et qui, quisquam molestiae perferendis, at temporibus.
+                        Hic illo ullam aliquid ipsum voluptatem commodi laborum, enim nostrum aspernatur laboriosam
+                        optio vel saepe rem? Optio, accusantium eaque praesentium, asperiores ratione doloribus eos vel
+                        vitae deleniti enim necessitatibus quas.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="d-flex" style="justify-content: center; padding-left: 150px;padding-right: 150px;padding-top: 50px; margin-bottom: 18px;"> <!--premier article-->
+            <div class=" d-block" style="max-width: 500px;">
+                <div class="titrearticle">
+                    <h3><strong>LE MEILLEUR DE L'AUTOMOBILE</strong></h3>
+                </div>
+                <p class="particle">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, obcaecati incidunt
+                    numquam tempora reprehenderit sint quas officia ipsam, odio sit quia impedit similique itaque
+                    doloribus, reiciendis animi voluptate nam accusamus?</p>
+                <ul class="fa-ul particle">
+                    <li><span class="fa-li"><i class="fa-solid fa-check " style="color: #CC6119;"></i></span>premier avantage</li>
+                    <li><span class="fa-li"><i class="fa-solid fa-check "style="color: #CC6119;"></i></span> second avantage</li>
+                    <li><span class="fa-li"><i class="fa-solid fa-check "style="color: #CC6119;"></i></span> troisième avantage</li>
+                    <li><span class="fa-li"><i class="fa-solid fa-check "style="color: #CC6119;"></i></span> quatrième avantage</li>
+                    <li><span class="fa-li"><i class="fa-solid fa-check "style="color: #CC6119;"></i></span> cinquième avantage</li>
                 </ul>
-            </article>
-        </section>
-        <section>
-            <!--vendre ou acheter telle est la question ? -->
-            <div> <!--mettre dans un carré jaune-->
-                <h3><strong> Vous souhaitez louer ? </strong></h3>
-                <p> todo veut louer une voiture pout aller se balader</p>
             </div>
-            <div> <!--mettre dans un carré rouge-->
-                <h3><strong> Vous souhaitez acheter ? </strong></h3>
-                <p> Todo veut acheter une voiture pour sa petite famille</p>
-            </div>
-        </section>
-        <div>
-            <h1> VEHICULES RECENTS</h1>
-        </div>
-        <div>
-            <img src="images/vehicule2.jpg" alt="annonces">
-            <p><strong>BMW 535I, NAVI, LEATHER, ABS</strong></p>
-            <button>5 000€</button>
-        </div>
-        <div>
-            <img src="images/vehicule2.jpg" alt="annonces">
-            <p><strong> BMW 328I, SPORT LINE BODY KIT</strong></p>
-            <button> 8 000€ </button>
-        </div>
-        <div>
-            <img src="images/vehicule2.jpg" alt="annonces">
-            <p><strong>FORD EXPLORER 2015 4WD</strong></p>
-            <button>
-                <p>9 000€</p>
-                <p>8 200€</p>
-            </button>
-        </div>
-        <div>
-            <h3>Pourquoi nous choisir ? </h3>
-            <div>
-                <h6>
-                    <srong>FINANCEMENT</srong>
-                </h6>
-                <i class="fa-solid fa-tag"></i>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis elit est, feugiat at egestas id,
-                    bibendum et arcu. Quisque vitae elit molestie, efficitur enim eu, lobortis odio.</p>
-            </div>
-            <div>
-                <h6><strong>REACTIVITE DE L'EQUIPE TECHNIQUE</strong></h6>
-                <i class="fa-brands fa-algolia"></i>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis elit est, feugiat at egestas id,
-                    bibendum et arcu. Quisque vitae elit molestie, efficitur enim eu, lobortis odio.</p>
-            </div>
-            <div>
-                <h6><strong> A L'ECOUTE DE NOTRE CLIENTELE</strong></h6>
-                <i class="fa-regular fa-comments"></i>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis elit est, feugiat at egestas id,
-                    bibendum et arcu. Quisque vitae elit molestie, efficitur enim eu, lobortis odio.</p>
-            </div>
-            <div>
-                <h6><strong> SERVICE ET MAINTENANCE</strong></h6>
-                <i class="fa-regular fa-note-sticky"></i>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pharetra laoreet odio sed
-                    hendrerit. Maecenas sollicitudin bibendum mi sed vestibulum. Praesent sem ex, imperdiet vitae diam
-                    id, consectetur consequat arcu. Praesent porta vitae lectus in malesuada. Curabitur pellentesque
-                    pretium neque non efficitur. Donec convallis urna id ullamcorper aliquet. Vivamus scelerisque, enim
-                    vel tincidunt tempus, erat tellus vehicula nulla, non consequat augue ante id magna. </p>
+            <div class=" d-block" style="max-width: 500px;"> <!--image premier article a gauche du texte-->
+                <img src="images/entretien.jpg" alt="image premier article" style="width: 100%;">
             </div>
         </div>
-        <button> Contactez-Nous </button>
-        </div>
-        <div>
-            <img src="/images/vehicule3.jpg" alt="voiture fond">
-            <H6> CLUD AUTO <BR> VENTES ET LOCATIONS</H6>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pharetra laoreet odio sed
-                hendrerit. Maecenas sollicitudin bibendum mi sed vestibulum. Praesent sem ex, imperdiet vitae diam id,
-                consectetur consequat arcu. Praesent porta vitae lectus in malesuada. Curabitur pellentesque pretium
-                neque non efficitur. Donec convallis urna id ullamcorper aliquet. Vivamus scelerisque, enim vel
-                tincidunt tempus, erat tellus vehicula nulla, non consequat augue ante id magna. </p>
-        </div>
-    </main>
-    <footer id="#mainFooter">
-        <div> <!--paragraphe de gauche-->
-            <h6><strong>CLUB AUTO</strong></h6>
-            <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pharetra laoreet odio sed
-                hendrerit. Maecenas sollicitudin bibendum mi sed vestibulum. Praesent sem ex, imperdiet vitae diam id,
-                consectetur consequat arcu. Praesent porta vitae lectus in malesuada. Curabitur pellentesque pretium
-                neque non efficitur. Donec convallis urna id ullamcorper aliquet. Vivamus scelerisque, enim vel
-                tincidunt tempus, erat tellus vehicula nulla, non consequat augue ante id magna. </P>
-        </div>
-        <div> <!--horaires d'ouverture-->
-            <h6><strong>>HORAIRE D'OUVERTURE</strong></h6>
-            <p></p>
-        </div>
-        <div>
-            <!--Newsletter mettre une barre de recherche permettant d'insérer l'adresse mail de l'utilisateur afin qu'il recoive les mails-->
-        </div>
-        <div> <!-- réseau sociaux : facebook instagram twitter, youtube, google-->
-        </div>
-        <P>Copyright &copy; Club auto- Tous droits réservés.</P>
-    </footer>
 
+        <!--fin du premier article-->
+
+        <!--ici se termine le second article-->
+        <div class="fond">
+            
+            <div class="d-block" >
+                <div class="carreorange"> <!--carré jaune orange block-->
+                    <div class="textearticle"> <!--article-->
+                        <div><!--titre article-->
+                            <h3>Vous souhaitez louer ?</h3>
+                        </div>
+                        <p class="particle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+                            eius
+                            error dolore quidem sequi
+                            repellendus quisquam mollitia tempora sed ullam nobis temporibus ad consectetur,
+                            sint
+                            reprehenderit, ratione, id
+                            neque eos.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="d-block">
+                <div class="carrerouge"> <!--carré rouge block-->
+                    <div class="textearticle">
+                        <div>
+                            <h3>Vous souhaitez acheter ?</h3>
+                        </div> <!--titre article-->
+                        <p class="particle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla velit
+                            fugiat esse, provident, placeat sapiente error doloremque minima tempore repudiandae
+                            cumque qui corporis unde odit hic veritatis rerum sit. Aut.</p>
+                    </div>
+                </div>
+            </div>   
+            
+        </div>
+
+        <div> <!--les cards avec l'image-->
+            <!--titre-->
+            <div class="vehicule"> <!--liste vehicule récents-->
+                <div class="titrevehicule">
+                    <h2>VEHICULES RECENTS</h2>
+                </div>
+                <div style="display:flex ;justify-content: center;">
+
+
+                    <div class="cardvehicule"> <!--premier vehicule recent block-->
+                        <div class="card-bodyvehicule"> <!--flex-->
+                            <img src="images/vehicule2.jpg" alt="premier vehicule recent">
+                        </div>
+
+                        <!--leger espace entre image et block description + prix -->
+
+                        <div class="card-titlevehicule">
+                            <div class="description"> <!--block description vehicule-->
+                                <h6>BMW 535I,NAVI,</h6>
+                                <h6>LEATHER, ABS</h6>
+                            </div>
+                            <div class="boutonprix"><strong>5 000 €</strong></div>
+                            <!--carrée prix fond bleu ecriture blanche gras-->
+                        </div>
+                    </div>
+                    <div class="cardvehicule"> <!--premier vehicule recent block-->
+                        <div class="card-bodyvehicule"> <!--flex-->
+                            <img src="images/vehicule2.jpg" alt="premier vehicule recent">
+                        </div>
+
+                        <!--leger espace entre image et block description + prix -->
+
+                        <div class="card-titlevehicule">
+                            <div class="description"> <!--block description vehicule-->
+                                <h6>BMW 328I,SPORT</h6>
+                                <h6>LINE BODY KIT</h6>
+                            </div>
+                            <div class="boutonprix"><strong>8 000 €</strong></div>
+                            <!--carrée prix fond bleu ecriture blanche gras-->
+                        </div>
+                    </div>
+                    <div class="cardvehicule"> <!--premier vehicule recent block-->
+                        <div class="card-bodyvehicule"> <!--flex-->
+                            <img src="images/vehicule2.jpg" alt="premier vehicule recent">
+                        </div>
+
+                        <!--leger espace entre image et block description + prix -->
+
+                        <div class="card-titlevehicule">
+                            <div class="description"> <!--block description vehicule-->
+                                <h6>FORD EXPLORER </h6>
+                                <h6>2015 4WD</h6>
+                            </div>
+                            <div class="boutonprix"><strong>8 200 €</strong></div>
+                            <!--carrée prix fond bleu ecriture blanche gras-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--ici se termine la section des vehicules recents-->
+
+        <!--ici commence la trosième section-->
+
+        <div> <!--nous choisir-->
+            <div class="choisirtitre">
+                <h2>Pourquoi nous choisir ?</h2>
+            </div> <!--titre-->
+            <div class="choisirbis">
+                <div class="d-flex"> <!--premier block-->
+                    <div class="d-inlineblock">
+                        <i class="fa-solid fa-tag fa-2xl iconechoisir"></i> <!--a gauche du texte-->
+                    </div>
+                    <div class="d-inlineblock">
+                        <h6>FINANCEMENT</h6><!--titre-->
+                        <!--texte-->
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis voluptatem ducimus suscipit
+                            consequatur vitae? Fugit, iusto. Esse ex, modi beatae neque consequuntur animi assumenda
+                            cumque ab, corrupti rem dolorum natus?</p>
+                    </div>
+                </div>
+                <div class="d-flex"> <!--second block-->
+                    <div class="d-inlineblock"> <!--image a gauche du texte-->
+                        <i class="fa-brands fa-algolia fa-2xl iconechoisir"></i>
+                    </div>
+                    <div class="d-inlineblock">
+                        <h6>REACTIVITE DE L'EQUIPE TECHNIQUE</h6>
+
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas beatae consectetur
+                            pariatur quaerat earum voluptatem nulla, quos quis sit, illum distinctio, quia quod. Alias
+                            pariatur similique odio illo, cumque esse.</p>
+                    </div>
+                </div>
+                <div class="d-flex"> <!--troisieme block-->
+                    <div class="d-inlineblock"> <!--image a gauche du texte-->
+                        <i class="fa-regular fa-comments fa-2xl iconechoisir"></i>
+                    </div>
+                    <div class="d-inlineblock">
+                        <h6>A L'ECOUTE DE NOTRE CLIENTELE</h6>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio labore explicabo repellat,
+                            repudiandae animi, numquam inventore deleniti eaque earum eius distinctio et quia! Est
+                            inventore temporibus minus, in suscipit dolore!</p>
+                    </div>
+                </div>
+                <div class="d-flex"> <!--quatrieme block-->
+                    <div class="d-inlineblock"> <!--a gauche du texte-->
+                        <i class="fa-regular fa-note-sticky fa-2xl iconechoisir"></i>
+                    </div>
+                    <div class="d-inlineblock">
+                        <h6>SERVICE ET MAINTENANCE</h6>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, fugit aliquam? Aperiam
+                            iure, consequatur nemo sunt illum, eaque molestias sit similique voluptas facilis expedita
+                            sed. At ex animi nesciunt adipisci?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex-center">
+                <a href="contact.html" class="boutoncontact"> <strong>CONTACTEZ-NOUS</strong></a>
+                <!--sur fond bleu ecriture en blanc gras redirection vers la page contact-->
+            </div>
+        </div>
+
+        <!--ici se termine la trosième partie -->
+
+        <!--ici commence la derniere partie avant le footer-->
+
+        <div class="imagefond2"> <!--vente location-->
+
+            <div class="carreorange2"> <!--carre orange-->
+                <div class="titrearticle ">
+                    <h3 class="d-flex titreventelocation">CLUB AUTO</h3> <!--noir gras-->
+                    <h3 class="d-flex titreventelocation">VENTE ET LOCATION</h3> <!--blanc gras-->
+                </div>
+                <div class="d-flex-center">
+                    <div class=" particle-ventelocation">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos necessitatibus ab modi
+                            consectetur, laboriosam sequi provident eaque sapiente, voluptatibus velit nam magni! Velit,
+                            provident laboriosam eligendi obcaecati sit totam rem.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--ici se termine la dernière partie avant le footer-->
 </body>
+<footer class="footer"> <!--ici commence le footer-->
+    <div class="d-flex-center"> <!-- ici commence les carrés-->
+        <div class="footerd-block"> <!-- carré club auto block-->
+            <div class="footerd-flex footertitre white"> <strong><span style="color: #6C98E1;">CLUB</span> AUTO</strong>
+            </div> <!--titre flex-->
+            <p class="footerd-flex footerparagraphe"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Explicabo, sit.</p> <!--texte flex-->
+        </div>
+        <div class="footerd-block"> <!--horaire ouverture block-->
+            <div class="footerd-flex footertitre white horaire"><strong>HORAIRE D'OUVERTURE</strong></div>
+            <!--titre flex-->
+            <div> <!--paragraphe flex-->
+                <p class="footerparagraphe footerd-flex titremilieu grey"><strong>Lundi-Samedi:&nbsp;</strong><span
+                        class="white"> 9:00-17:00</span> </p>
+                <p class="footerparagraphe footerd-flex titrebas grey"><strong>Dimanche et jours
+                        fériés:&nbsp;</strong><span class="white"> Fermé</span></p>
+            </div>
+        </div>
+        <div class="footerd-block"> <!--newsletter block-->
+            <div class="footerd-flex footertitre white horaire"><strong>NEWSLETTER</strong> </div> <!--titre flex-->
+            <div class="footerd-flex"> <!--entrez votre email flex-->
+                <input type="email" placeholder="Entrez votre email" class="footerparagraphe2">
+                <strong><i class="fa-solid fa-arrow-right fleche"></i></strong>
+            </div>
+            <div class="footerd-flex footerparagraphe backline grey newsletter">Inscrivez-vous pour recevoir les
+                dernières offres</div> <!--information flex-->
+        </div>
+        <div class="footerd-block"> <!--réseau sociaux block-->
+            <div class="footerd-flex footertitre titrereseau white"><strong>RESEAUX SOCIAUX</strong> </div>
+            <!--titre flex-->
+            <div class="footerd-flex"> <!--icone réseau sociaux flex-->
+                <i class="fa-brands fa-facebook-f reseau"></i>
+                <i class="fa-brands fa-x-twitter reseau"></i>
+                <i class="fa-brands fa-instagram reseau"></i>
+                <i class="fa-brands fa-google-plus-g reseau"></i>
+                <i class="fa-brands fa-youtube reseau"></i>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex-center">Copyright&copy; Club auto-Tous droits réservés</div> <!-- ici est le copyright-->
+
+</footer>
 
 </html>

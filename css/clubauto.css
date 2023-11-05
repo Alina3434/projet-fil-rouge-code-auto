@@ -177,6 +177,8 @@ h3{
 .card-body{
     /* min-height: 800px; */
     display: flex;
+    align-items: center;
+    justify-items: center;
 }
 
 .card-body img{
@@ -198,13 +200,21 @@ h3{
 /*ici commence la barre image*/
 
 .imagefond{
-    background-image: url(/images/vente-location.jpg);
+    background-image: url( ..//images/vente-location.jpg);
     background-repeat: no-repeat;
     width: 100%;
     height: 500px;
     align-items: center;
     justify-items: center;
-    display: inline-flex;
+    display: flex;
+}
+
+.fond{
+    display: flex;
+     min-height: 500px;
+     justify-content: center;
+     background-image: url( ..//images/vente-location.jpg);
+     background-size:cover;
 }
 
 .carreorange{
@@ -215,6 +225,7 @@ h3{
     height: 150px;
     padding: 18px;
     opacity: 80%;
+    margin-top: 200px;
 }
 
 .carrerouge{
@@ -225,6 +236,8 @@ h3{
     height: 150px;
     padding: 18px;
     opacity: 75%;
+    margin-top: 200px;
+    margin-left: 18px;
 }
 
 
@@ -319,6 +332,8 @@ h3{
     background-color:#6C98E1 ;
     padding-top: 15px;
     padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
     color: white;
     width: 150px;
     height: 10px;
@@ -331,8 +346,8 @@ h3{
 
 .imagefond2{
     padding-top: 100px;
-    background-image: url(/images/vehicule3.jpg);
-    background-repeat: no-repeat;
+    background-image: url(..//images/vehicule3.jpg);
+    background-size: cover;
     width: 100%;
     height: 300px;
     margin-bottom: 0;
@@ -583,6 +598,11 @@ padding-left: 18px;
     border-left: solid #FAB637;
 }
 
+.option{
+    display: block;
+    
+}
+
 
 
 /*ICI COMMENCE LA PAGE CONTACT*/
@@ -648,7 +668,8 @@ padding-left: 18px;
 
 .bodycontact{
     display: flex;
-    background-image: url(/images/vehicule3.jpg);
+    background-image: url(..//images/vehicule3.jpg);
+    background-size: cover;
     align-content: center;
     justify-content: center;
     min-height: 500px;

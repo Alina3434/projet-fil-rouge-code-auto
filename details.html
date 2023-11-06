@@ -56,13 +56,45 @@
 
         <i class="fa-brands fa-x-twitter logo"></i>
     </div>
+
+    
+    <div class="mobilemenu">
+        <div class="d-flex-right2">
+            <div class="menu-toggle2">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+
+            <nav class="mobile-menu">
+                <!-- Insérez ici vos liens de navigation -->
+
+                <a href="index.html"><strong>ACCUEIL</strong></a>
+                <a href="vente.html"><strong>VENTE</strong></a>
+                <a href="location.html"><strong>LOCATION</strong></a>
+                <a href="contact.html"><strong>CONTACT</strong></a>
+            </nav>
+        </div>
+
+
+
+        <div class="d-flex-center">
+            <i class="fa-solid fa-phone icone" style="color:#FAB637"></i>
+            <div class="d-block">
+                <p class="orange titre"><strong>TELEPHONE</strong></p>
+                <P class="white titrebas"><strong>01 23 45 67 89 </strong></P>
+            </div>
+        </div>
+        <h1 class="titremobile"><strong>club auto</strong></h1>
+
+    </div>
     <div>
 
         <!--ici se termine le header-->
 
         <!--ici commence la barre de navigation-->
 
-        <nav class="navigation"> <!-- barre de navigation blanc opaque block-->
+        <nav class="navigation gros"> <!-- barre de navigation blanc opaque block-->
             <div>
                 <a href="index.html"><strong>ACCUEIL</strong></a> <!--flex survol orange lorsque l'on clique dessus-->
             </div>
@@ -86,15 +118,15 @@
             <li style="color: #ECEFF3;"><strong>BMW 535i, NAVI, leather, ABS</strong></li>
         </ul> 
     </div>
-    <div class="d-block" style="justify-content: center;margin-left: 400px;">
-        <div class="titrearticle d-flex">
+    <div class="imagedetailvente">
+        <div class="titrearticle d-flex-mobile">
             <h2>BMW 535i, NAVI, Leather, ABS</h2>
         </div>
-        <div class="d-flex">
-            <img src="images/vehicule2.jpg" alt="renseignement" style="width: 500px;">
+        <div class="d-flex-mobile">
+            <img src="images/vehicule2.jpg" alt="renseignement" class="renseignement">
         </div>
     </div>
-    <nav class="d-flex navigationdetail">
+    <nav class="d-flex-mobile navigationdetail">
         <div class="d-block textenavigation">
             <h5>DESCRIPTION</h5>
         </div>
@@ -125,11 +157,11 @@
         </div>
         <div>
             <h6><strong>OPTION</strong></h6>
-            <ul class="option">
-                <il style="white-space: normal;">Option 1</il>
-                <il style="white-space: normal;">Option 2</il>
-                <il style="white-space: normal;">Option 3</il>
-                <il style="white-space: normal;">Option 4</il>
+            <ul class="option" >
+                <li style="white-space: normal;"><i class="fa-solid fa-circle-chevron-down" style="color: #CC6119; margin-right: 15px;"></i>Option 1</li>
+                <li style="white-space: normal;"><i class="fa-solid fa-circle-chevron-down"style="color: #CC6119; margin-right: 15px;"></i>Option 2</li>
+                <li style="white-space: normal;"><i class="fa-solid fa-circle-chevron-down"style="color: #CC6119; margin-right: 15px;"></i>Option 3</li>
+                <li style="white-space: normal;"><i class="fa-solid fa-circle-chevron-down"style="color: #CC6119; margin-right: 15px;"></i>Option 4</li>
             </ul>
         </div>
       
@@ -137,7 +169,7 @@
 
 </body>
 <footer class="footer"> <!--ici commence le footer-->
-    <div class="d-flex-center"> <!-- ici commence les carrés-->
+    <div class="d-flex-center-footer"> <!-- ici commence les carrés-->
         <div class="footerd-block"> <!-- carré club auto block-->
             <div class="footerd-flex footertitre white"> <strong><span style="color: #6C98E1;">CLUB</span> AUTO</strong>
             </div> <!--titre flex-->
@@ -176,6 +208,13 @@
         </div>
     </div>
     <div class="d-flex-center">Copyright&copy; Club auto-Tous droits réservés</div> <!-- ici est le copyright-->
-
+    <script>
+        const menuToggle = document.querySelector(".menu-toggle2");
+        const mobileMenu = document.querySelector(".mobile-menu");
+    
+        menuToggle.addEventListener("click", function () {
+            mobileMenu.classList.toggle("active");
+        });
+    </script>
 </footer>
 </html>

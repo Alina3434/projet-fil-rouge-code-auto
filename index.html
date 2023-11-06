@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Club auto </title>
     <script src="https://kit.fontawesome.com/114a5d4d65.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/clubauto.css" />
@@ -27,7 +27,7 @@
             <h1>CLUB AUTO</h1>
         </div>
 
-        <i class="fa-solid fa-location-dot icone" style="color:#FAB637"></i>
+        <i class="fa-solid fa-location-dot icone " style="color:#FAB637"></i>
         <div>
             <p class="orange titre"><strong>ADRESSE</strong> </p>
             <p class="white titremilieu">AVENUE CHARLES DE GAULLE</p>
@@ -52,36 +52,73 @@
                 </div>
             </div>
         </div>
-        <i class="fa-brands fa-facebook logo"></i>
+        <i class="fa-brands fa-facebook logo gros"></i>
 
-        <i class="fa-brands fa-x-twitter logo"></i>
+        <i class="fa-brands fa-x-twitter logo gros"></i>
     </div>
-    <div style="min-height: 500px;">
+
+    <div class="mobilemenu">
+        <div class="d-flex-right">
+            <div class="menu-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+
+            <nav class="mobile-menu">
+                <!-- Insérez ici vos liens de navigation -->
+
+                <a href="index.html"><strong>ACCUEIL</strong></a>
+                <a href="vente.html"><strong>VENTE</strong></a>
+                <a href="location.html"><strong>LOCATION</strong></a>
+                <a href="contact.html"><strong>CONTACT</strong></a>
+            </nav>
+        </div>
+
+
+
+        <div class="d-flex-center">
+            <i class="fa-solid fa-phone icone" style="color:#FAB637"></i>
+            <div class="d-block">
+                <p class="orange titre"><strong>TELEPHONE</strong></p>
+                <P class="white titrebas"><strong>01 23 45 67 89 </strong></P>
+            </div>
+        </div>
+        <h1 class="titremobile"><strong>club auto <span style="color: #FAB637;">le meilleur de
+                    l'automobile</span></strong></h1>
+
+    </div>
+
+    <div>
 
         <!--ici se termine le header-->
 
         <!--ici commence la barre de navigation-->
 
-        <nav class="navigation"> <!-- barre de navigation blanc opaque block-->
+        <nav class="navigation gros"> <!-- barre de navigation blanc opaque block-->
             <div>
-                <a href="index.html"><strong>ACCUEIL</strong></a> <!--flex survol orange lorsque l'on clique dessus-->
+                <a href="index.html"><strong>ACCUEIL</strong></a>
+                <!--flex survol orange lorsque l'on clique dessus-->
             </div>
             <div>
                 <a href="vente.html"><strong>VENTE</strong></a> <!--flex survol orange lorsque l'on clique dessus-->
             </div>
             <div>
-                <a href="location.html"><strong>LOCATION</strong></a> <!--flex survol orange lorsque l'on clique dessus-->
+                <a href="location.html"><strong>LOCATION</strong></a>
+                <!--flex survol orange lorsque l'on clique dessus-->
             </div>
             <div style="margin-right: 250px;;">
-                <a href="contact.html"><strong>CONTACT</strong></a> <!--flex survol orange lorsque l'on clique dessus-->
+                <a href="contact.html"><strong>CONTACT</strong></a>
+                <!--flex survol orange lorsque l'on clique dessus-->
             </div>
         </nav>
-        <div class="card"> <!--image de fond barre de navigation block-->
+        <div class="card gros"> <!--image de fond barre de navigation block-->
             <div class="card-body"> <!--flex-->
                 <img src="images/vehicule1.jpg" alt="image fond barre de navigation">
             </div>
             <div class="card-title">
-                <h2><strong><span style="color: white;">CLUB AUTO</span> <span style="color: #FAB637;">LE MEILLEUR DE
+                <h2><strong><span style="color: white;">CLUB AUTO</span> <span style="color: #FAB637;">LE MEILLEUR
+                            DE
                             L'AUTOMOBILE</span></strong></h2>
             </div> <!--flex-->
         </div>
@@ -89,8 +126,9 @@
         <!--ici se termine la barre de navigation-->
 
         <!--ici commence les articles-->
-        <div class="d-flex" style="justify-content: center; padding-left: 150px;padding-right: 150px;padding-top: 50px;"> <!--premier article-->
-            <div class=" d-block" style="min-width: 500px;"> <!--image premier article a gauche du texte-->
+        <div class="d-flex-mobile articlebureau">
+            <!--premier article-->
+            <div class=" d-block articleimagemobile"> <!--image premier article a gauche du texte-->
                 <img src="images/clients.jpg" alt="image premier article" style="width: 100%;">
             </div>
             <div class=" d-block" style="margin-left: 18px;">
@@ -98,37 +136,50 @@
                     <h3><strong>BIENVENUE CHEZ <span class="orange">CLUB AUTO</span></strong></h3>
                 </div> <!--titre de l'article-->
                 <div>
-                    <p class="particle black"><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-                            distinctio vel quaerat quis eaque quas, nisi eius ex architecto maiores est consectetur hic
+                    <p class="particle black"><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Deleniti
+                            distinctio vel quaerat quis eaque quas, nisi eius ex architecto maiores est consectetur
+                            hic
                             provident velit dolore ab laborum qui sapiente.</strong></p>
                     <p class="particle black">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam aut
                         tempore corrupti eveniet aperiam sint facilis magni nihil eligendi necessitatibus obcaecati
                         delectus, hic et qui, quisquam molestiae perferendis, at temporibus.
                         Hic illo ullam aliquid ipsum voluptatem commodi laborum, enim nostrum aspernatur laboriosam
-                        optio vel saepe rem? Optio, accusantium eaque praesentium, asperiores ratione doloribus eos vel
+                        optio vel saepe rem? Optio, accusantium eaque praesentium, asperiores ratione doloribus eos
+                        vel
                         vitae deleniti enim necessitatibus quas.</p>
                 </div>
             </div>
 
         </div>
 
-        <div class="d-flex" style="justify-content: center; padding-left: 150px;padding-right: 150px;padding-top: 50px; margin-bottom: 18px;"> <!--premier article-->
-            <div class=" d-block" style="max-width: 500px;">
+        <div class="d-flex-mobile articlebureaubis">
+            <!--premier article-->
+            <div class=" d-block secondarticlebureau">
                 <div class="titrearticle">
                     <h3><strong>LE MEILLEUR DE L'AUTOMOBILE</strong></h3>
                 </div>
-                <p class="particle">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, obcaecati incidunt
+                <p class="particle">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, obcaecati
+                    incidunt
                     numquam tempora reprehenderit sint quas officia ipsam, odio sit quia impedit similique itaque
                     doloribus, reiciendis animi voluptate nam accusamus?</p>
                 <ul class="fa-ul particle">
-                    <li><span class="fa-li"><i class="fa-solid fa-check " style="color: #CC6119;"></i></span>premier avantage</li>
-                    <li><span class="fa-li"><i class="fa-solid fa-check "style="color: #CC6119;"></i></span> second avantage</li>
-                    <li><span class="fa-li"><i class="fa-solid fa-check "style="color: #CC6119;"></i></span> troisième avantage</li>
-                    <li><span class="fa-li"><i class="fa-solid fa-check "style="color: #CC6119;"></i></span> quatrième avantage</li>
-                    <li><span class="fa-li"><i class="fa-solid fa-check "style="color: #CC6119;"></i></span> cinquième avantage</li>
+                    <li><span class="fa-li"><i class="fa-solid fa-check " style="color: #CC6119;"></i></span>premier
+                        avantage</li>
+                    <li><span class="fa-li"><i class="fa-solid fa-check " style="color: #CC6119;"></i></span> second
+                        avantage</li>
+                    <li><span class="fa-li"><i class="fa-solid fa-check " style="color: #CC6119;"></i></span>
+                        troisième
+                        avantage</li>
+                    <li><span class="fa-li"><i class="fa-solid fa-check " style="color: #CC6119;"></i></span>
+                        quatrième
+                        avantage</li>
+                    <li><span class="fa-li"><i class="fa-solid fa-check " style="color: #CC6119;"></i></span>
+                        cinquième
+                        avantage</li>
                 </ul>
             </div>
-            <div class=" d-block" style="max-width: 500px;"> <!--image premier article a gauche du texte-->
+            <div class=" d-block secondarticleimagebureau"> <!--image premier article a gauche du texte-->
                 <img src="images/entretien.jpg" alt="image premier article" style="width: 100%;">
             </div>
         </div>
@@ -137,9 +188,9 @@
 
         <!--ici se termine le second article-->
         <div class="fond">
-            
-            <div class="d-block" >
-                <div class="carreorange"> <!--carré jaune orange block-->
+
+            <div class="d-block">
+                <div class="carreorange carreorangemobile"> <!--carré jaune orange block-->
                     <div class="textearticle"> <!--article-->
                         <div><!--titre article-->
                             <h3>Vous souhaitez louer ?</h3>
@@ -154,8 +205,8 @@
                     </div>
                 </div>
             </div>
-            <div class="d-block">
-                <div class="carrerouge"> <!--carré rouge block-->
+            <div class="d-block ">
+                <div class="carrerouge carrerougemobile"> <!--carré rouge block-->
                     <div class="textearticle">
                         <div>
                             <h3>Vous souhaitez acheter ?</h3>
@@ -165,8 +216,8 @@
                             cumque qui corporis unde odit hic veritatis rerum sit. Aut.</p>
                     </div>
                 </div>
-            </div>   
-            
+            </div>
+
         </div>
 
         <div> <!--les cards avec l'image-->
@@ -194,14 +245,14 @@
                             <!--carrée prix fond bleu ecriture blanche gras-->
                         </div>
                     </div>
-                    <div class="cardvehicule"> <!--premier vehicule recent block-->
+                    <div class="cardvehicule gros"> <!--premier vehicule recent block-->
                         <div class="card-bodyvehicule"> <!--flex-->
                             <img src="images/vehicule2.jpg" alt="premier vehicule recent">
                         </div>
 
                         <!--leger espace entre image et block description + prix -->
 
-                        <div class="card-titlevehicule">
+                        <div class="card-titlevehicule gros">
                             <div class="description"> <!--block description vehicule-->
                                 <h6>BMW 328I,SPORT</h6>
                                 <h6>LINE BODY KIT</h6>
@@ -210,7 +261,7 @@
                             <!--carrée prix fond bleu ecriture blanche gras-->
                         </div>
                     </div>
-                    <div class="cardvehicule"> <!--premier vehicule recent block-->
+                    <div class="cardvehicule gros"> <!--premier vehicule recent block-->
                         <div class="card-bodyvehicule"> <!--flex-->
                             <img src="images/vehicule2.jpg" alt="premier vehicule recent">
                         </div>
@@ -246,7 +297,8 @@
                     <div class="d-inlineblock">
                         <h6>FINANCEMENT</h6><!--titre-->
                         <!--texte-->
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis voluptatem ducimus suscipit
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis voluptatem ducimus
+                            suscipit
                             consequatur vitae? Fugit, iusto. Esse ex, modi beatae neque consequuntur animi assumenda
                             cumque ab, corrupti rem dolorum natus?</p>
                     </div>
@@ -259,7 +311,8 @@
                         <h6>REACTIVITE DE L'EQUIPE TECHNIQUE</h6>
 
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas beatae consectetur
-                            pariatur quaerat earum voluptatem nulla, quos quis sit, illum distinctio, quia quod. Alias
+                            pariatur quaerat earum voluptatem nulla, quos quis sit, illum distinctio, quia quod.
+                            Alias
                             pariatur similique odio illo, cumque esse.</p>
                     </div>
                 </div>
@@ -283,7 +336,8 @@
                         <h6>SERVICE ET MAINTENANCE</h6>
 
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, fugit aliquam? Aperiam
-                            iure, consequatur nemo sunt illum, eaque molestias sit similique voluptas facilis expedita
+                            iure, consequatur nemo sunt illum, eaque molestias sit similique voluptas facilis
+                            expedita
                             sed. At ex animi nesciunt adipisci?</p>
                     </div>
                 </div>
@@ -298,17 +352,20 @@
 
         <!--ici commence la derniere partie avant le footer-->
 
-        <div class="imagefond2"> <!--vente location-->
+        <div class="fond2"> <!--vente location-->
 
             <div class="carreorange2"> <!--carre orange-->
                 <div class="titrearticle ">
-                    <h3 class="d-flex titreventelocation">CLUB AUTO</h3> <!--noir gras-->
-                    <h3 class="d-flex titreventelocation">VENTE ET LOCATION</h3> <!--blanc gras-->
+                    <h3 class="d-flex titreventelocation"><strong>CLUB AUTO</strong></h3> <!--noir gras-->
+                    <h3 class="d-flex titreventelocation"><strong><span style="color: white;">VENTE ET
+                                LOCATION</span></strong></h3> <!--blanc gras-->
                 </div>
                 <div class="d-flex-center">
                     <div class=" particle-ventelocation">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos necessitatibus ab modi
-                            consectetur, laboriosam sequi provident eaque sapiente, voluptatibus velit nam magni! Velit,
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos necessitatibus ab
+                            modi
+                            consectetur, laboriosam sequi provident eaque sapiente, voluptatibus velit nam magni!
+                            Velit,
                             provident laboriosam eligendi obcaecati sit totam rem.</p>
                     </div>
                 </div>
@@ -319,7 +376,7 @@
     <!--ici se termine la dernière partie avant le footer-->
 </body>
 <footer class="footer"> <!--ici commence le footer-->
-    <div class="d-flex-center"> <!-- ici commence les carrés-->
+    <div class="d-flex-center-footer"> <!-- ici commence les carrés-->
         <div class="footerd-block"> <!-- carré club auto block-->
             <div class="footerd-flex footertitre white"> <strong><span style="color: #6C98E1;">CLUB</span> AUTO</strong>
             </div> <!--titre flex-->
@@ -360,5 +417,14 @@
     <div class="d-flex-center">Copyright&copy; Club auto-Tous droits réservés</div> <!-- ici est le copyright-->
 
 </footer>
+
+<script>
+    const menuToggle = document.querySelector(".menu-toggle");
+    const mobileMenu = document.querySelector(".mobile-menu");
+
+    menuToggle.addEventListener("click", function () {
+        mobileMenu.classList.toggle("active");
+    });
+</script>
 
 </html>

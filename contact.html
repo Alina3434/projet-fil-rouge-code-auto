@@ -56,13 +56,43 @@
 
         <i class="fa-brands fa-x-twitter logo"></i>
     </div>
+    <div class="mobilemenu">
+        <div class="d-flex-right2">
+            <div class="menu-toggle2">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+
+            <nav class="mobile-menu">
+                <!-- Insérez ici vos liens de navigation -->
+
+                <a href="index.html"><strong>ACCUEIL</strong></a>
+                <a href="vente.html"><strong>VENTE</strong></a>
+                <a href="location.html"><strong>LOCATION</strong></a>
+                <a href="contact.html"><strong>CONTACT</strong></a>
+            </nav>
+        </div>
+
+
+
+        <div class="d-flex-center">
+            <i class="fa-solid fa-phone icone" style="color:#FAB637"></i>
+            <div class="d-block">
+                <p class="orange titre"><strong>TELEPHONE</strong></p>
+                <P class="white titrebas"><strong>01 23 45 67 89 </strong></P>
+            </div>
+        </div>
+        <h1 class="titremobile"><strong>club auto</strong></h1>
+
+    </div>
     <div>
 
         <!--ici se termine le header-->
 
         <!--ici commence la barre de navigation-->
 
-        <nav class="navigation"> <!-- barre de navigation blanc opaque block-->
+        <nav class="navigation gros"> <!-- barre de navigation blanc opaque block-->
             <div>
                 <a href="index.html"><strong>ACCUEIL</strong></a> <!--flex survol orange lorsque l'on clique dessus-->
             </div>
@@ -83,9 +113,9 @@
                 <div> <!--div de titre-->
                     <h3 class="titrecontact">CONTACTEZ-NOUS</h3>
                 </div>
-                <div class="d-flex"> <!--div input + label-->
+                <div class="d-flex-mobile"> <!--div input + label-->
                     <div class="d-block"> <!--div gauche prenom nom email numero de tel-->
-                        <div class="d-flex">
+                        <div class="d-flex-mobile">
                             <div class="d-block formulaire"> <!--prénom-->
                                 <label>Prénom<i class="fa fa-asterisk asterix label"></i></label>
                                 <input type="text" placeholder="Entrez votre prénom" class="d-block champformulaire ecritureformulaire" required> 
@@ -95,7 +125,7 @@
                                 <input type="text" placeholder="Entrez votre nom" class="d-block champformulaire ecritureformulaire" required>
                             </div>
                         </div>
-                        <div class="d-flex">
+                        <div class="d-flex-mobile">
                             <div class="formulaire"> <!--email-->
                                 <label> email<i class="fa fa-asterisk asterix"></i></label>
                                 <input type="email" placeholder="Entrez une adresse mail valide" required class="d-block champformulaire ecritureformulaire">
@@ -122,7 +152,7 @@
 
 </body>
 <footer class="footer"> <!--ici commence le footer-->
-    <div class="d-flex-center"> <!-- ici commence les carrés-->
+    <div class="d-flex-center-footer"> <!-- ici commence les carrés-->
         <div class="footerd-block"> <!-- carré club auto block-->
             <div class="footerd-flex footertitre white"> <strong><span style="color: #6C98E1;">CLUB</span> AUTO</strong>
             </div> <!--titre flex-->
@@ -163,4 +193,12 @@
     <div class="d-flex-center">Copyright&copy; Club auto-Tous droits réservés</div> <!-- ici est le copyright-->
 
 </footer>
+<script>
+    const menuToggle = document.querySelector(".menu-toggle2");
+    const mobileMenu = document.querySelector(".mobile-menu");
+
+    menuToggle.addEventListener("click", function () {
+        mobileMenu.classList.toggle("active");
+    });
+</script>
 </html>

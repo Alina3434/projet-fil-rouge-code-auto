@@ -939,7 +939,32 @@ a{
     max-width: 500px;
 }
 
-  
+.d-flex-center-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+/*affichage prix page vente et location*/
+.image-button {
+    display:none
+    
+  }
+
+  /*pour rechercher page vente tri*/
+  .rechercher{
+   padding-left: 20px;
+  }
+  .rechercherbis{
+  margin-right: 10px;
+  }
+
+  .prixventelocation{
+    margin-top: 50px;
+    margin-left: 20px;
+    display: flex;
+  }
   /* Styles pour afficher le menu sur les écrans étroits (via les media queries) */
   @media (max-width: 768px) {
     .menu-toggle {
@@ -1019,6 +1044,14 @@ a{
     padding-left: 25px;
     white-space: normal;
     
+}
+
+.titremobile2{
+    color:white;
+    text-transform: uppercase;
+    display: inline-block;
+    padding-left: 25px;  
+    margin:0;
 }
 
 .articlemobile{
@@ -1390,4 +1423,47 @@ justify-content: center;
     width: 500px;
 }
 
+.d-flex-ventelocation{
+    display: flex;
+    align-items: center;
+}
+
+.d-flex-center-ventelocation{
+    display: flex;
+    align-items: center;
+}
+
+.rechercher{
+    align-items: center;
+}
+
+.rechercher{
+    display: block;
+    justify-content: center;
+}
+
+.bandeaurechercher{
+    justify-content: center;
+}
+
+.prixventelocation{
+    margin-top: 50px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .d-flex-center-mobile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.contourrecherchermobile{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left:30px ;
+    height: 750px;
+    margin-right: 25px;
+}
 }

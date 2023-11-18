@@ -903,7 +903,6 @@ a{
   }
   .mobile-menu.active {
     display: inline-block;
-    /* Ajoutez ici d'autres styles pour le menu mobile lorsqu'il est actif */
   }
   .mobilemenu{
 
@@ -980,9 +979,7 @@ a{
     }
 
   
-    /*.mobile-menu {
-      display: block; /* Affiche le menu de navigation sur les écrans étroits 
-    }*/
+
     .menu{
         display: none;
     }
@@ -1097,6 +1094,7 @@ a{
     display: flex;
     flex-direction: column;
 }
+/*permet de dimensionner les images sur la version mobile*/
 
 .articleimagemobile{
     width: 100%;
@@ -1118,6 +1116,8 @@ justify-content: center;
  width: 100%;
 }
 
+
+/*dimension des images de la page accueil*/
 .secondarticlebureau{
    max-width: 100%;
    margin-left: 18px;
@@ -1127,6 +1127,10 @@ justify-content: center;
     max-width: 100%
 }
 
+/*fin des dimensions des images présentes dans les articles de la page d'accueil*/
+
+
+/*pour le titre de la partie pourquoi choisir*/
 .choisirtitre{
     display: flex;
     flex-direction: column;
@@ -1134,13 +1138,14 @@ justify-content: center;
     font-family: fontTitre;
     margin-left: 30px;
 }
-
+/*sert a la partie pourquoi choisir pour la version mobile*/
 .choisirbis{
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
+/*permet de dimensionner les icones présent dans la partie pourquoi choisir de la page accueil*/
 .iconechoisir{
     color:#CC6119 ;
     padding-top: 20px;
@@ -1148,6 +1153,7 @@ justify-content: center;
 
 }
 
+/*permet de dimensionner l'image de fond pour la version mobile*/
 .fond2{
     display: flex;
         flex-direction: column;
@@ -1167,12 +1173,16 @@ justify-content: center;
  
 
 }
+
+/*dimensionne  les paragraphe disponibles dans les carrés de la page vente et location
 .particle-ventelocation{
     display: block;
     font-family: fontContenu;
     font-size: 15px;
     max-width: 200px;
 }
+
+/*permet de dimensionner le titre présent dans les carrés vente ou location de véhicule*/
 .titreventelocation{
     padding:0;
     margin: 0;
@@ -1180,7 +1190,7 @@ justify-content: center;
     align-items: center;
     font-size: 150%;
 }
-
+/*permet de définir le fond et la couleur d'écriture des éléments du footer*/
 .footer{
     padding: 0;
     background-color: black;    
@@ -1203,7 +1213,7 @@ justify-content: center;
     min-width:300px;
     padding-top:0;
 }
-
+/*permet de mettre les éléments contenus dans le footer en colonne*/
 .d-flex-center-footer{
     display: flex;
     flex-direction: column;
@@ -1217,14 +1227,14 @@ justify-content: center;
 
 
 /*page vente responsive*/
-
+/*Permet de mettre l'image en fond du mot vente ou location*/
 .bandeauvente{
     background-image: url(../images/vente-location.jpg);
     height: 500px;
     width: 100%;
     
 }
-
+/*Permet de définir le mot vente/location */
 .bandeauvente h1{
     margin-left: 75px;
     margin-top: 0%;
@@ -1235,18 +1245,20 @@ justify-content: center;
 
 }
 
-
+/*Permet de mettre une ombre sur le contour*/
 .contourrechercher{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-left:30px ;
     height: 750px;
 }
 
+/*permet de definir les dimensions du carré rechercher*/
 .contourdebord{
     min-width: 250px;
     margin-top: -20px;
 }
 
+/*pour la version mobile permet d'inverser la colonne rechercher et les card contenant les voitures disponible à la vente ou la location*/
 .d-flex-center-simple{
     display: flex;
     flex-direction: column-reverse;
@@ -1289,9 +1301,9 @@ justify-content: center;
     right: 48px; /* Position horizontale du bouton (à droite de l'image) */
     margin-bottom: 5px;
     height: 55px;
-    background-color:#6C98E1; /* Couleur de fond du bouton */
-    color: white; /* Couleur du texte du bouton */
-    padding: 10px 20px; /* Espacement intérieur du bouton */
+    background-color:#6C98E1; 
+    color: white; 
+    padding: 10px 20px; 
     border: none; /* Supprime la bordure du bouton */
     font-family: fontContenu;
     font-size: 18px;
@@ -1324,7 +1336,6 @@ justify-content: center;
 .formulaire{
     margin: 5px;
     display: block;
-    /* margin-left: 225px; */
     margin-right: 20px;
     min-width: 150px;
    
